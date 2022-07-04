@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.tomrosen.aas</id>
+  
+  <name>Advanced Audio Settings</name>
+  <summary>Provides more audio settings.</summary>
+  
+  <metadata_license>CC-BY-4.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <content_rating type="oars-1.1" />
+  
+  <description>
+    <p>
+      Provides advanced audio settings like Sample rate, format and resample method for PulseAudio.
+    </p>
+  </description>
+  <launchable type="desktop-id">com.github.tomrosen.aas.desktop</launchable>
+</component>

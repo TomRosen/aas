@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/github/tomrosen/aas/" id="com.github.tomrosen.aas">
+    <key name="pos-x" type="i">
+      <default>-1</default>
+      <summary>X Position of Window</summary>
+      <description>The saved x position for the Advanced Audio Settings window</description>
+    </key>
+    <key name="pos-y" type="i">
+      <default>-1</default>
+      <summary>Y Position of Window</summary>
+      <description>The saved y position for the Advanced Audio Settings window</description>
+    </key>
+    <key name="show-info-apply" type="b">
+      <default>true</default>
+      <summary>Show Info Dialog</summary>
+      <description>Enable/disable wether the info dialog is shown after applying new settings</description>
+    </key>
+  </schema>
+</schemalist>

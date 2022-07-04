@@ -1,0 +1,7 @@
+src/Application.vala
+src/Components.vala
+src/Options.vala
+src/Utils.vala
+src/Dialog.vala
+data/aas.desktop.in
+data/aas.metainfo.xml.in

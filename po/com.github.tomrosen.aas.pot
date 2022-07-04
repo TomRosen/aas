@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.tomrosen.aas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.tomrosen.aas\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-28 17:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Application.vala:39 data/aas.desktop.in:6 data/aas.metainfo.xml.in:5
+msgid "Advanced Audio Settings"
+msgstr ""
+
+#: src/Application.vala:77
+msgid "Apply"
+msgstr ""
+
+#: src/Application.vala:108
+msgid "Some applications may need to be restarted for audio to work again."
+msgstr ""
+
+#: src/Application.vala:113
+msgid "Something went wrong while writing the config!"
+msgstr ""
+
+#: src/Application.vala:119
+msgid "Reset default"
+msgstr ""
+
+#: src/Application.vala:243
+msgid "No pulse config file found!"
+msgstr ""
+
+#: src/Application.vala:248
+msgid "No home directory set!"
+msgstr ""
+
+#: src/Application.vala:268
+msgid "Couldn't read config file!"
+msgstr ""
+
+#: src/Components.vala:33
+msgid "Format"
+msgstr ""
+
+#: src/Components.vala:34
+msgid "Set the default format!"
+msgstr ""
+
+#: src/Components.vala:40
+msgid "Rate"
+msgstr ""
+
+#: src/Components.vala:41
+msgid "Set the default samplerate!"
+msgstr ""
+
+#: src/Components.vala:47
+msgid "Channels"
+msgstr ""
+
+#: src/Components.vala:48
+msgid "Select the channels!"
+msgstr ""
+
+#: src/Components.vala:54
+msgid "Resample Method"
+msgstr ""
+
+#: src/Components.vala:55
+msgid "Select the resample method!"
+msgstr ""
+
+#: src/Components.vala:61
+msgid "Enable Resampling"
+msgstr ""
+
+#: src/Components.vala:62
+msgid "Turn on/off resampling!"
+msgstr ""
+
+#: src/Dialog.vala:6
+msgid "Error"
+msgstr ""
+
+#: src/Dialog.vala:10
+msgid "Report Problem"
+msgstr ""
+
+#: src/Dialog.vala:11
+msgid "Close"
+msgstr ""
+
+#: src/Dialog.vala:24
+msgid "Error: "
+msgstr ""
+
+#: src/Dialog.vala:40
+msgid "Message"
+msgstr ""
+
+#: src/Dialog.vala:57
+msgid "Don't show again"
+msgstr ""
+
+#: src/Dialog.vala:58
+msgid "Ok"
+msgstr ""
+
+#: data/aas.desktop.in:7
+msgid "Provides advanced settings for your audio devices."
+msgstr ""
+
+#: data/aas.desktop.in:10
+msgid "com.github.tomrosen.aas"
+msgstr ""
+
+#: data/aas.metainfo.xml.in:6
+msgid "Provides more audio settings."
+msgstr ""
+
+#: data/aas.metainfo.xml.in:12
+msgid ""
+"Provides advanced audio settings like Sample rate, format and resample "
+"method."
+msgstr ""

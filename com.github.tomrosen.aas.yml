@@ -1,0 +1,22 @@
+app-id: com.github.tomrosen.aas
+
+
+runtime: io.elementary.Platform
+runtime-version: '6.1'
+sdk: io.elementary.Sdk
+
+command: com.github.tomrosen.aas
+
+finish-args:
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+  - '--filesystem=host-etc'
+  - '--filesystem=home'
+
+modules:
+  - name: aas
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
