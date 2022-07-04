@@ -242,7 +242,7 @@ public class AAS : Gtk.Application {
     public static int main (string[] args) {
         bool error = false;
         string error_message = "";
-        
+            
         GLib.File pulse_conf = GLib.File.new_for_path ("/run/host/etc/pulse/daemon.conf");
         GLib.File pulse_dir = GLib.File.new_for_path (AASUtils.get_home_dir () + "/.pulse");
         

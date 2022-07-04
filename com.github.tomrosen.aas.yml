@@ -11,8 +11,8 @@ finish-args:
   - '--share=ipc'
   - '--socket=fallback-x11'
   - '--socket=wayland'
-  - '--filesystem=host-etc'
-  - '--filesystem=home'
+  - '--filesystem=host:ro'
+  - '--filesystem=~/.pulse'
 
 modules:
   - name: aas

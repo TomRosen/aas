@@ -115,7 +115,7 @@ msgstr "Nicht mehr anzeigen"
 
 #: src/Dialog.vala:58
 msgid "Ok"
-msgstr "Ok"
+msgstr "Schließen"
 
 #: data/aas.desktop.in:7
 msgid "Provides advanced settings for your audio devices."

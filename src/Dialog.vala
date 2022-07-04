@@ -37,7 +37,7 @@ namespace AASDialog {
     public void message (string info_message, Gtk.Window parent) {
         GLib.Settings settings = new GLib.Settings ("com.github.tomrosen.aas");
         Gtk.Dialog dialog = new Gtk.Dialog.with_buttons (
-            _("Message"),
+            _(""),
             parent,
             Gtk.DialogFlags.MODAL |
             Gtk.DialogFlags.DESTROY_WITH_PARENT,
@@ -55,7 +55,7 @@ namespace AASDialog {
         info_label.set_max_width_chars (50);
         
         Gtk.CheckButton check_button = new Gtk.CheckButton.with_label (_("Don't show again"));
-        Gtk.Button button = new Gtk.Button.with_label (_("Ok"));
+        Gtk.Button button = new Gtk.Button.with_label (_("Close"));
         
         button.clicked.connect (()=>{
             settings.set_boolean ("show-info-apply",!check_button.get_active ());
